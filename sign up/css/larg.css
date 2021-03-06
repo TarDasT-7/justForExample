@@ -1,0 +1,138 @@
+@font-face{font-family:"amiroow";src:url('../font/IndieFlower-Regular.ttf') format('truetype');}
+@font-face{font-family: "amiroow2";src: url('../font/ShadowsIntoLight-Regular.ttf') format('truetype');}
+@font-face{font-family: "amiroow3";src: url('../font/font/tree.ttf') format('truetype');}
+@font-face{font-family: "amiroow4";src: url('../font/Smooth.ttf') format('truetype');}
+@font-face{font-family: "amiroow5";src: url('../font/Precious.ttf') format('truetype');}
+@font-face{font-family: "amiroow6";src: url('../font/Miama-Regular.ttf') format('truetype');}
+*{
+    box-sizing: border-box;
+}
+#picback{
+    position: fixed;
+    width: 30%;
+    left: -25px;
+    bottom: -25px; 
+}
+.body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.form{
+width:100%;
+text-align: center;
+font-family: sans-serif;
+text-transform: capitalize;
+
+}
+#titr{
+    padding: 20px 0 40px;
+    color:#ffd000;
+    font-size: 2.2em;
+    font-family: amiroow6;
+font-weight:700;
+text-transform: capitalize;
+line-height: 10px;
+}
+#paragraf{
+    color: #ffd700;
+    font-family: amiroow4;
+    font-size: 1.5em;
+    margin: 10px 0 -3px; 
+letter-spacing: .25px;
+    
+}
+#hr{
+    border: .1px solid #7c041c;
+margin:0 -55px 12px;
+}
+input[type=text],input[type=email],input[type=password]{
+    position: relative;
+ vertical-align: middle;
+text-align: start;
+width: 70%;
+margin:10px 0;
+color: #ffd700;
+border:1px solid #ffd007;
+border-radius: 24px;
+padding: 10px 15px;
+background: none;
+text-transform: capitalize;
+transition: .25s;
+font-size: 1em;
+}
+input[type=text]:focus,input[type=email]:focus,input[type=password]:focus{
+width: 80%;
+font-size: 1.25em;
+outline: none;
+padding:3px;
+background-color: #ffd700;
+color: #000016;
+}
+.custom{margin: -2px 50px; position: relative;}
+label[for=sex]{
+    color: #ffd000;
+    font-size: 1.2em;
+font-weight: 700;
+font-family: amiroow3;
+text-transform: uppercase;
+}
+.controler{
+width: 50%;
+padding: 2px 20px;
+color: #7c041c;
+border:.01px solid #ffd007;
+background: none;
+border-radius: 15px;
+font-family: sans-serif;
+text-transform: uppercase;
+font-weight:bold;
+font-size: .75em;
+transition: .22s;
+cursor: url('../../font/cursor.cur'),auto;
+}
+.controler:focus{
+border-radius: 15px;
+outline: none;
+background-color: #ffd700;
+}
+input[type=submit]{
+    width: 25%;
+    margin: 15px 0 12px;
+    background-color: #7c041c;
+color: #ffd000;
+    border: 1px solid #49000f;
+border-radius: 20px;
+padding: 3px 5px;
+opacity: .54;
+transition: .2s;
+font-size: .7em;
+text-align: center;
+}
+input[type=submit]:focus{outline: none; opacity: 1;
+    background-color: #8f001d;}
+input[type=submit]:hover{
+width: 24%;
+font-size: .9em;
+border-radius: 30px;
+opacity: .95;
+outline: none;
+color: rgb(0, 4, 22);
+}
+#pp p{
+    margin-top: 30px;
+    color: #ffd007;
+    font-size: 1em;
+font-weight: 800;
+    font-family: amiroow3;
+font-variant: small-caps;
+letter-spacing: .4px;
+line-height: 25px;
+}
+#pp p a{color: #008844;transition: .3s;}
+#pp p a:hover{color: #7c041c;text-decoration: none;}
+#pp p a:focus{outline: none; color: #5e000c;text-decoration: none; border-bottom: .5px solid #5e000c;}
+#pp p a:active{color: #42001c;text-decoration:none;border-bottom:none;}
